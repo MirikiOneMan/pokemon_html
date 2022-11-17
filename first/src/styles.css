@@ -1,0 +1,89 @@
+h1 {
+    color: rgb(47, 237, 88);
+}
+
+body {
+    background-color: #334BF2;
+}
+
+ul,
+ol,
+.Nm {
+    list-style: none;
+    margin: 0;
+}
+
+.switcher {
+    background-color: #b8b8b87a;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 25%;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.switcher li {
+    background-color: rgb(165, 165, 165);
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.Nm {
+    /* Rectangle 2 */
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background: rgba(36, 23, 57, 0.75);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    align-content: space-between;
+    flex: content;
+    flex-direction: column;
+}
+
+.Logo {
+    height: 5rem;
+}
+
+.imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.bi1 {
+    /* Vector */
+    height: 25rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.bi2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bi3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bi4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
