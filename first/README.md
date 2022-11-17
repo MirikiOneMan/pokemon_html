@@ -1,5 +1,3 @@
-# first
+# webpack-custom-config
 
-# yes it'sa mi 
-
-# and a ario
+Création rapide d'environnement de développement webpack
